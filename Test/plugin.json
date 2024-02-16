@@ -1,0 +1,14 @@
+{
+  "ID": "A01CAA00226A455CBA2ABD0C10D1F685",
+  "ActionKeyword": "kw",
+  "Disabled": false,
+  "IsGlobal": false,
+  "Name": "Test",
+  "Author": "8LWXpg",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.Test.dll",
+  "IcoPathDark": "Images\\Test.dark.png",
+  "IcoPathLight": "Images\\Test.light.png"
+}
