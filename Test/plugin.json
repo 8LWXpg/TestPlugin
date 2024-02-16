@@ -7,7 +7,7 @@
   "Author": "8LWXpg",
   "Version": "1.0.0",
   "Language": "csharp",
-  "Website": "",
+  "Website": "https://github.com/8LWXpg/TestPlugin",
   "ExecuteFileName": "Community.PowerToys.Run.Plugin.Test.dll",
   "IcoPathDark": "Images\\Test.dark.png",
   "IcoPathLight": "Images\\Test.light.png"
