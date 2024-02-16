@@ -1,7 +1,3 @@
-// Copyright (c) Microsoft Corporation
-// The Microsoft Corporation licenses this file to you under the MIT license.
-// See the LICENSE file in the project root for more information.
-
 using ManagedCommon;
 using Microsoft.PowerToys.Settings.UI.Library;
 using System;
@@ -31,10 +27,8 @@ namespace Community.PowerToys.Run.Plugin.Test
 
         public string Description => "Test plugin";
 
-        // TODO: remove dash then change to uppercase from ID below and inside plugin.json
         public static string PluginID => "A01CAA00226A455CBA2ABD0C10D1F685";
 
-        // TODO: return query results
         public List<Result> Query(Query query)
         {
             ArgumentNullException.ThrowIfNull(query);

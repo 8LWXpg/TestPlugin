@@ -1,5 +1,7 @@
 ## Debug
 
-1. Open in Visual Studio, choose `Debug` and build the solution (Ctrl+Shift+B).
-2. Run `./Test/debug.ps1`
-3. Attach to `PowerToys.PowerLauncher` process.
+1. Open in Visual Studio
+2. Run `./Test/copyLib.ps1` to copy the required files to the `Lib` folder.
+3. Choose `Debug` and build the solution (Ctrl+Shift+B).
+4. Run `./Test/debug.ps1`
+5. Attach to `PowerToys.PowerLauncher` process.
