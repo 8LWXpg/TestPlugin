@@ -17,7 +17,7 @@ using Wox.Plugin.Logger;
 
 namespace Community.PowerToys.Run.Plugin.Test
 {
-    public class Main : IPlugin, IPluginI18n, IContextMenu, IReloadable, IDisposable
+    public class Main : IPlugin, IPluginI18n, IReloadable, IDisposable
     {
         private PluginInitContext _context;
 
@@ -33,11 +33,6 @@ namespace Community.PowerToys.Run.Plugin.Test
 
         // TODO: remove dash then change to uppercase from ID below and inside plugin.json
         public static string PluginID => "A01CAA00226A455CBA2ABD0C10D1F685";
-
-        public List<ContextMenuResult> LoadContextMenus(Result selectedResult)
-        {
-            return new List<ContextMenuResult>(0);
-        }
 
         // TODO: return query results
         public List<Result> Query(Query query)
